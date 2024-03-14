@@ -24,6 +24,6 @@ def move_mkv_files(source_dir, destination_dir):
                 print(f"Moved {file} to {destination_file_path}")
 
 # Beispielaufruf
-source_directory = '/home/sakatoshi/Schreibtisch/DragonBall/DragonBall Z SD'
-destination_directory = '/home/sakatoshi/Schreibtisch/DragonBall/DragonBall Z SD/DragonBall Z'
+source_directory = '/path/to/subfolders'
+destination_directory = '/path/destination'
 move_mkv_files(source_directory, destination_directory)
